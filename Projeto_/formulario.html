@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="Imagens/Caderno_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/estilo.css" type="text/css">
+
+</head>
+
+<body class="form">
+    <header class="degrade">
+        <h1>
+            Contato - Cloud Computer
+        </h1>
+        <p>           
+            Queremos te ouvir, preencha nosso formulário para contato.
+        </p>
+    </header>
+    <nav class="formulario">
+        <a href="index.html">Home</a>
+        <a href="cloudserv.html">Tipos de Cloud</a>
+    </nav>
+    <br>
+    <main class="form">
+        <section>
+            <form method="get" id="fcontato" action="">   
+                <h2 class="ident">
+                    Identificação  
+                </h2>
+                <br>              
+                <h4>
+                    <label for="cname">Nome:</label> <input class="box" type="text" required name="tname" id="cname" placeholder="Nome Completo" maxlength="40">
+                </h4>   
+
+                <h4>
+                    <label for="cemail">E-mail:</label><input class="box" type="email" required name="temail" id="cemail" placeholder="123456@email.com">
+                </h4>
+
+                <h4>
+                    <label for="ccont">Contato</label> <input class="box" type="tel" name="tcont" id="ccont" placeholder="(xx) xxxxx-xxxx" maxlength="11">
+                </h4>
+
+                <h4>
+                    <label for="cprof">Profissão:</label><input class="box" type="text" name="tprof" id="cprof" placeholder="Developer, Eng Software...">
+                </h4>
+
+                <h4>
+                    Sexo
+                </h4>
+
+               <input class="radio" type="radio" name="tsexo" id="cmas"> <label for="cmas">Feminino</label>
+               
+                <input class="radio" type="radio" name="tsexo" id="cfem"> <label for="cfem">Masculino</label><br>
+
+                <h4><label for="cnasc">Data Nasc.</label> <input class="nasc" type="date" name="tnasc" id="cnasc"></h4>
+                <br>
+
+                <h2 class="ident">Endereço</h2>
+                <h4>
+                    <label for="cend">Logradouro:</label> <input class="box" type="text" name="tend" id="cend" placeholder="Rua, Av., Travessa" maxlength="40">
+                </h4>
+              
+                <h4>
+                    <label for="cnum">Número</label> <input class="box" type="text" name="tnum" id="cnum" placeholder="9999" maxlength="6">
+                </h4>
+                
+                <h4>
+                    <label for="ccep">CEP:</label><input class="box" type="text" name="tcep" id="ccep" placeholder="00000000" maxlength="8">
+                </h4>
+            
+                <h4>
+                    <label for="cest">Estado</label>
+                    <select name="test" id="cest">
+                        <option>Acre</option>
+                        <option>Alagoas</option>
+                        <option>Amapá</option>
+                        <option>Amazonas</option>
+                        <option>Bahia</option>
+                        <option>Ceará</option>
+                        <option>Distrito Federal</option>
+                        <option>Espírito Santo</option>
+                        <option>Goiás</option>
+                        <option>Maranhão</option>
+                        <option>Mato Grosso</option>
+                        <option>Mato Grosso do Sul</option>
+                        <option>Minas Gerais</option>
+                        <option>Pará</option>
+                        <option>Paraíba</option>
+                        <option>Paraná</option>
+                        <option>Pernambuco</option>
+                        <option>Piauí</option>
+                        <option>Rio de Janeiro</option>
+                        <option>Rio Grande do Norte</option>
+                        <option>Rio Grande do Sul</option>
+                        <option>Rondônia</option>
+                        <option>Roraima</option>
+                        <option>Santa Catarina</option>
+                        <option selected>São Paulo</option>
+                        <option>Sergipe</option>
+                        <option>Tocantins</option>
+                    </select>
+                </h4>
+
+                <h4><label for="ccid">Cidade</label> <input class="box" type="text" name="tcid" id="ccid" placeholder="São Paulo, Fortaleza" maxlength="40"></h4>
+                <br>
+
+                <h2 class="ident">Mensagem</h2>
+                <label for="cmsg"></label> 
+                <textarea required name="tmsg" id="cmsg" cols="80" rows="8" placeholder="Deixe aqui seu comentário" maxlength="300"></textarea>
+            <br>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <br>
+    <footer>
+        Site desenvolvido por <a class="igor" href="https://github.com/igorferrati" target="_blank">Igor Ferrati</a> para exercício de Desenvolvimento Web - <a class="mack" href="https://www.mackenzie.br/" target="_blank">Universidade Presbiteriana Mackenzie</a>.
+    </footer>
+</body>
+</html>

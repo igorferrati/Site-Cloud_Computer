@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing</title>
+    <link rel="shortcut icon" href="Imagens/Cloud_Icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/estilo.css" type="text/css"> 
+
+    <script> 
+        const saudacao = () => { 
+         let h = new Date().toLocaleTimeString('pt-BR', { hour: 'numeric', hour12: false }); 
+         let d = new Date().toLocaleDateString('pt-BR', { weekday: 'long' }); 
+         if (h <= 5) return 'Boa madrugada, hoje é ' + d; 
+         if (h < 12) return 'Bom dia, hoje é ' + d; 
+         if (h < 18) return 'Boa tarde, hoje é ' + d; 
+         return 'Boa noite, hoje é ' + d; 
+        } 
+       
+        function exibeSaudacao() { 
+         alert((saudacao()) + "\n\nIgor Ferrati Leite\nSão Paulo\nEstudante de Análise e Desenvolvimento - Universidade Presbiteriana Mackenzie"); 
+        } 
+        onload=exibeSaudacao()
+    </script>
+    
+</head>
+<body>
+    <header>
+        <h1>
+            Cloud Computing
+        </h1>
+        <p>           
+            Computação em nuvem, viabilidade da modernização de negócios e aplicações inovadoras.
+        </p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="formulario.html">Fale conosco</a>
+        <a href="cloudserv.html">Tipos de Cloud</a>
+    </nav>
+    <main>
+        <article>
+            <h1>
+                O QUE É CLOUD COMPUTING?
+            </h1>
+
+            <p class="text">
+                Cloud computing ou computação em nuvem é a tecnologia que permite acesso <strong>remoto a softwares</strong>, <strong>armazenamento de arquivos</strong> e <strong>processamento de dados</strong> por meio da internet.
+                Ou seja, uma alternativa para acessar dados importantes de qualquer computador ou dispositivo, em qualquer lugar do mundo.
+            </p>
+
+            <figure>
+                <img class="pequena" src="Imagens/Cloud_01.jpg" alt="Armazenamento em nuvens">
+            </figure>
+
+            <p class="text">
+                O sistema clound está cada dia mais presente em nossas vidas, podemos relacionar desde um usuário armazenando fotos em uma nuvem, até grandes empresas utilizando para hospedar todos seus dados e utilizar serviços e sistemas.
+                Um exemplo ótimo da grandeza, facilidade e agilidade deste sistema é se relacionarmos com aplicações populares, como Netflix, YouTube, Amazon, plataformas de Universidades, plataformas do governo, Ifood, e etc. A pergunta é, onde eles armazenam toda essa quantidade de dados que oferecem? Como guardam informações de milhares de usuários? Suas quantidades de dados podem aumentar e diminuir todo tempo? Como é sua organização? Tem acesso a qualquer momento a estes dados? Eles estão seguros?.
+            </p>
+
+                <h2 class="title">
+                    Sistema Cloud - Entenda Melhor
+                </h2>
+                
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ymZo-ZwXFw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            <p class="text">
+                Por fim, entendemos que o <strong>cloud computer</strong> é muito mais que apenas um armazenam de dados e/ou um servidor, ele tem potêncial para uma grande desenvolmento na área da tecnologia, assim podemos levantar alguns pontos de seus beneficios.
+            </p>
+
+            <figure>
+                <img src="Imagens/Cloud_esquema.jpg" alt="Ilustração Cloud">
+            </figure>
+            
+            <h2 class="title">
+                Beneficios
+            </h2>
+
+            <ul>
+                <li>Disponibilidade de dados a qualquer momento</li>
+                <li>Segurança</li>
+                <li>Economia</li>
+                <li>Escalabilidade</li>
+                <li>Agilidade</li>
+                <li>Facilidade de colaboração de dados</li>
+                <li>Capacitação do Trabalho Remoto</li>
+                <li>Atualizações de softwares automaticamente</li>
+                <li>Automação de Processos</li>
+            </ul>
+                     
+            <h2 class="title">
+                Principais Prestadores De Serviços Clound
+            </h2>
+
+
+
+        <figure>
+        <a href="cloudserv.html">
+            <img src="Imagens/icones_cloud.png" alt="Serviços Cloud no mercado">
+        </a>
+            <figcaption>
+                <p class="img">Clique na imagem para conhecer mais sobre os serviços e as possibilidades que oferecem.</p>
+            </figcaption>
+        </figure>
+
+            <h2 class="title">
+                Transformação de empresas
+            </h2>
+
+            <p class="text">
+                Atualmente com o grande <strong>volume de informações</strong>, modernização de diversas áreas, com a tecnologia chegando para um maior número de pessoas, aplicada cada vez mais no nosso dia a dia, o cloud se torna primordial para se manter no mercado. Com isso temos as principais prestadoras destes serviços:
+            </p>       
+
+            <figure>
+                <img src="Imagens/Cloud_office.jpg" alt="Impacto do cloud nas empresas">
+            </figure>
+
+            <p class="text">
+                Parte da nossa vida esta recebendo influência direta da tecnologia e não seria diferente para as empresas, o nível de concorrência mudou, a forma de avaliar serviços mudou, a mandeira de prospectar clientes, de mante-los, estratégias de marketing, formas de prestar serviços e etc. 
+                Modernização e digitalização de todos processos de empresas está acontecendo em crescente escala, seja ela de porte pequeno, médio ou grande e de todos tipos de seguimentos. Existe uma transformação tecnologica nas empresas e com ela a possibilidade de recursos mais rápidos, inteligentes e de melhor desempenho.
+                Com isto, não fica difícil imaginar a projeção do uso de <strong>cloud</strong> em todo meio empresárial, seu impacto atualmente já é notório com execelente perfomances e números expressivos de resultados. 
+            </p>
+
+        </article>
+    </main>
+    <footer>
+        Site desenvolvido por <a class="igor" href="https://github.com/igorferrati" target="_blank">Igor Ferrati</a> para exercício de Desenvolvimento Web - <a class="mack" href="https://www.mackenzie.br/" target="_blank">Universidade Presbiteriana Mackenzie</a>.
+    </footer>
+</body>
+</html>
